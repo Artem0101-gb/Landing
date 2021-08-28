@@ -1,0 +1,52 @@
+@media screen and (max-width: 1300px) {
+	.button-first, nav {
+		display: none;
+	}
+
+    .header-navigation__link_n {
+    	display: block;
+    }
+
+	.footer {
+		display: none;
+	}
+
+	.main-title, .paragraph {
+		min-width: 500px;
+	}
+
+	.completed-projects {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		/*align-items: center;*/
+	}
+
+	.list-container {
+		display: none;
+	}
+
+	.button {
+		bottom: 10px;
+		min-width: 700px;
+		height: 70px;
+
+	}
+
+	.button-third {
+		margin-top: 10px;
+	}
+
+	.container-button {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.hero {
+		display: flex;
+	}
+
+
+} 
